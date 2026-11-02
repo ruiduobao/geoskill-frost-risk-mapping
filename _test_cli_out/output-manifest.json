@@ -2,8 +2,8 @@
   "skill": "frost-risk-mapping",
   "skill_version": "1.0.0",
   "command": "frost-risk-mapping --bbox 116 39 117 40 --synthetic --quiet --output-dir ./_test_cli_out",
-  "started_at": "2026-08-03T17:07:51.826814Z",
-  "finished_at": "2026-08-03T17:07:52.045142Z",
+  "started_at": "2026-11-02T15:07:49.516545Z",
+  "finished_at": "2026-11-02T15:07:50.047469Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -15,7 +15,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_out\\frost_risk.tif",
+      "path": "./_test_cli_out/frost_risk.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -32,7 +32,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\frost_free_period.tif",
+      "path": "./_test_cli_out/frost_free_period.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -49,7 +49,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\frost_frequency.tif",
+      "path": "./_test_cli_out/frost_frequency.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -66,7 +66,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\frost_stats.json",
+      "path": "./_test_cli_out/frost_stats.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -99,7 +99,7 @@
     ]
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "frost-risk-mapping"
   },
   "error": null
